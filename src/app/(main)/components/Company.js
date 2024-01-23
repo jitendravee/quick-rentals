@@ -33,15 +33,13 @@
             image: 'https://www.carlogos.org/car-logos/kia-logo.png'
         },
      
-        
-       
       
     ]
    export const premiumData = [
         {
             id:1,
             image:'https://www.freeiconspng.com/uploads/porsche-car-png-24.png',
-            tag:'Porsche 911S'
+tag:'Porsche'
         },
         {
             id:2,

@@ -22,10 +22,10 @@ const Nav = () => {
           <div className='flex flex-row items-center justify-between'>
             <h1 className='  hidden md:flex flex-row ml-2  items-center text-[24px] gap-1'><PiSteeringWheelBold />QuickRentals</h1>
             <ul className='hidden md:flex flex-row gap-9 font-light text-[19px]'>
-              <li className='hover:underline underline-offset-[5px] cursor-pointer'>Home</li>
-              <li className='hover:underline underline-offset-[5px] cursor-pointer'>Products</li>
-              <li className='hover:underline underline-offset-[5px] cursor-pointer'>Pricing</li>
-              <li className='hover:underline underline-offset-[5px] cursor-pointer'>FAQ</li>
+              <li className='hover:underline underline-offset-[5px] cursor-pointer hover:scale-110 ease-in-out duration-500'>Home</li>
+              <li className='hover:underline underline-offset-[5px] cursor-pointer hover:scale-110 ease-in-out duration-500'>Products</li>
+              <li className='hover:underline underline-offset-[5px] cursor-pointer hover:scale-110 ease-in-out duration-500'>Pricing</li>
+              <li className='hover:underline underline-offset-[5px] cursor-pointer hover:scale-110 ease-in-out duration-500'>FAQ</li>
             </ul>
 
             <div className=' mx-2 flex flex-row items-center justify-between min-w-full  md:hidden'>
@@ -50,7 +50,7 @@ const Nav = () => {
               <button className=' mr-3 outline outline-1 rounded-2xl p-1'>Book Now</button>
 
             </div>
-            <button className='md:flex hidden  mr-3 text-[22px] px-6 py-1 outline outline-1 rounded-2xl font-light md:transition duration-150 ease-out hover:ease-in'>Book Now</button>
+            <button className='md:flex hidden  mr-3 text-[22px] px-6 py-1 hover:scale-110 ease-in-out duration-300 outline outline-1 rounded-2xl font-light'>Book Now</button>
 
           </div>
         </div>
