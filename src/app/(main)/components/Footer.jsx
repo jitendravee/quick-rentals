@@ -4,7 +4,7 @@ import { faqData } from './Faq.js';
 
 
 const Faq = ({ data }) => (
-  <div className='bg-slate-100 px-7 '>
+  <div className='bg-slate-100 px-7 py-12 '>
     <div className='flex flex-col items-start justify-between '>
       {data.map((item) => (
         <div className='flex flex-col items-center mt-4 p-3 ' key={item.id}>
