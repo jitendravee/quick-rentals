@@ -11,7 +11,8 @@ const Parters = () => {
       
 
         <div className=" w-full mt-3  px-12 overflow-x-hidden ">
-          <div className="flex  left-0 animate-marquee-infinite">
+          <div className="flex  left-0 "> 
+          {/* animate-marquee-infinite  */}
             <div className='flex w-full  justify-around'>
               {companyData.map((card) => (
                 <div className='' key={card.id}>

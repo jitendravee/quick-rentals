@@ -5,6 +5,7 @@ import Hero from './assets/images/hero.jpg';
 import Hero2 from './assets/images/hero2.jpg';
 import { PiSteeringWheelBold } from "react-icons/pi";
 import { HiOutlineMenu } from "react-icons/hi";
+import Link from 'next/link'
 
 
 const Nav = () => {
@@ -50,8 +51,8 @@ const Nav = () => {
               <button className=' mr-3 outline outline-1 rounded-2xl p-1'>Book Now</button>
 
             </div>
-            <button className='md:flex hidden  mr-3 text-[22px] px-6 py-1 hover:scale-110 ease-in-out duration-300 outline outline-1 rounded-2xl font-light'>Book Now</button>
-
+            <Link href='/login'><button className='md:flex hidden  mr-3 text-[22px] px-6 py-1 hover:scale-110 ease-in-out duration-300 outline outline-1 rounded-2xl font-light'>Book Now</button>
+</Link>
           </div>
         </div>
         <Image alt="wallpaper" src={Hero} className='hidden  md:block h-1/2' />
